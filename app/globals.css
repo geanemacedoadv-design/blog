@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+body { @apply bg-pergaminho text-tinta font-body antialiased; }
+
+.prose-artigo { @apply text-[1.06rem] leading-[1.75] text-tinta/90; }
+.prose-artigo h2 { @apply font-display text-2xl md:text-3xl font-semibold mt-10 mb-4 text-tinta; }
+.prose-artigo h3 { @apply font-display text-xl font-semibold mt-8 mb-3 text-tinta; }
+.prose-artigo p { @apply my-4; }
+.prose-artigo ul, .prose-artigo ol { @apply my-4 pl-6 space-y-2; }
+.prose-artigo ul { @apply list-disc; }
+.prose-artigo ol { @apply list-decimal; }
+.prose-artigo a { @apply text-latao underline underline-offset-4 hover:text-argila; }
+.prose-artigo blockquote { @apply border-l-2 border-latao pl-4 italic text-grafite my-6; }
+.prose-artigo strong { @apply font-semibold; }
+.prose-artigo hr { @apply my-8 border-tinta/15; }
+
+.selo { @apply inline-flex items-center gap-2 border border-tinta/25 rounded px-2.5 py-1 text-[0.7rem] uppercase tracking-[0.14em] text-grafite; }
+:focus-visible { outline: 2px solid #A8842C; outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
