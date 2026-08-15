@@ -1,0 +1,65 @@
+backend:
+  name: github
+  repo: geanemacedoadv-design/blog
+  branch: main
+
+media_folder: "public/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "posts"
+    label: "Artigos"
+    folder: "content/posts"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - label: "Título"
+        name: "title"
+        widget: "string"
+
+      - label: "Descrição"
+        name: "description"
+        widget: "text"
+
+      - label: "Data de publicação"
+        name: "date"
+        widget: "datetime"
+        format: "YYYY-MM-DD"
+
+      - label: "Categoria"
+        name: "category"
+        widget: "select"
+        options:
+          - { label: "Contratos", value: "contratos" }
+          - { label: "Regularização", value: "regularizacao" }
+          - { label: "Litígios", value: "litigios" }
+          - { label: "Condomínios", value: "condominios" }
+          - { label: "Tributário Imobiliário", value: "tributario-imobiliario" }
+          - { label: "Mercado", value: "mercado" }
+
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+
+      - label: "Palavras-chave"
+        name: "keywords"
+        widget: "list"
+
+      - label: "Autora"
+        name: "author"
+        widget: "string"
+        default: "Geane de Almeida Macedo"
+
+      - label: "Tempo de leitura"
+        name: "readingTime"
+        widget: "number"
+        value_type: "int"
+
+      - label: "Imagem de capa"
+        name: "image"
+        widget: "image"
+        required: false
+
+      - label: "Conteúdo"
+        name: "body"
+        widget: "markdown"
