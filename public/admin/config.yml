@@ -2,6 +2,8 @@ backend:
   name: github
   repo: geanemacedoadv-design/blog
   branch: main
+  base_url: https://blog-rho-three-87.vercel.app
+  auth_endpoint: api/auth
 
 media_folder: "public/uploads"
 public_folder: "/uploads"
