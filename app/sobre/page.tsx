@@ -13,7 +13,7 @@ export default function Sobre() {
       <h1 className="font-display text-4xl font-semibold mb-8">Geane de Almeida Macedo</h1>
       <div className="prose-artigo">
         <p>
-          Advogada inscrita na OAB/BA sob o nº <strong>[preencher]</strong>, com atuação
+          Advogada inscrita na OAB/BA sob o nº <strong>70.923</strong>, com atuação
           concentrada em <strong>Direito Imobiliário</strong> — contencioso e
           extrajudicial — e atuação complementar em Direito Tributário aplicado a
           operações imobiliárias.
