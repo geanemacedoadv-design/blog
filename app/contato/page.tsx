@@ -13,8 +13,8 @@ export default function Contato() {
       <h1 className="font-display text-4xl font-semibold mb-4">Fale sobre seu caso</h1>
       <p className="text-grafite mb-10">
         Preencha o formulário abaixo. As mensagens são registradas com segurança e
-        respondidas em até 2 dias úteis. Você também pode escrever para
-        <strong> [email@dominio.com.br]</strong> ou pelo WhatsApp <strong>[(71) 9 0000-0000]</strong>.
+        respondidas em até 3 dias úteis. Você também pode escrever para
+        <strong>geanemacedo.adv@gmail.com</strong> ou pelo WhatsApp <strong>(71) 99639-6622</strong>.
       </p>
       <ContactForm />
       <p className="mt-8 text-xs text-grafite">
