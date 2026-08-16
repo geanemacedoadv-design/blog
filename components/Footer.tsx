@@ -5,9 +5,9 @@ export default function Footer() {
     <footer className="bg-tinta text-pergaminho/80 mt-20">
       <div className="mx-auto max-w-5xl px-5 py-10 grid gap-8 md:grid-cols-3 text-sm">
         <div>
-          <p className="font-display text-pergaminho text-base mb-2">Geane de Almeida Macedo</p>
-          <p>Advocacia Imobiliária · OAB/BA nº [preencher]</p>
-          <p>Salvador – Bahia</p>
+          <p className="font-display text-pergaminho text-base font-semibold">Geane de Almeida Macêdo</p>
+<p>Advogada • Direito Imobiliário e Direito Extrajudicial • OAB/BA nº 70.923</p>
+<p>Salvador – Bahia</p>
         </div>
         <div>
           <p className="uppercase tracking-[0.18em] text-[0.7rem] text-latao mb-2">Navegação</p>
