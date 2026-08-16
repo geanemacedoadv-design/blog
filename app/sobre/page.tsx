@@ -11,7 +11,7 @@ export default function Sobre() {
     <div className="mx-auto max-w-3xl px-5 py-16">
       <p className="selo mb-4">Sobre a advogada</p>
       <h1 className="font-display text-4xl font-semibold mb-8">Geane de Almeida Macedo</h1>
-      <div className="prose-artigo">
+      <div className="prose-artigo text-justify">
                <p>
           Geane de Almeida Macêdo é advogada, inscrita na Ordem dos Advogados do Brasil – Seccional Bahia, sob o nº <strong>70.923</strong>, com atuação nas áreas de Direito Imobiliário e Direito Extrajudicial.
 </p>
